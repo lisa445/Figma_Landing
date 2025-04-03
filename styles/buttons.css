@@ -1,0 +1,29 @@
+.primary_button, .secondary_button, .primary_button_first{
+    font-family: "RobotoMedium", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.primary_button, .primary_button_first{
+    background: #4452FE;
+    border: 1px solid #4452FE;
+}
+
+.primary_button:hover, .primary_button_first:hover{
+    border: 1px solid #090d3f;
+    background:#090d3f ;
+}
+
+.secondary_button:hover{
+    color:grey;
+    border: 1px solid grey;
+}
+
+.secondary_button{
+    background: transparent;
+    border: 1px solid white;
+}
+
