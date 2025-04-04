@@ -1,4 +1,4 @@
-.features, .content, .gallery, .partners {
+.features, .content, .gallery, .partners, .testimonials {
     color:white;
     display: flex;
     flex-direction: column;
@@ -132,3 +132,4 @@
 .partners_icon img{
     margin-right: 74px;
 }
+
