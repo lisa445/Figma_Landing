@@ -1,0 +1,48 @@
+.main_cards{
+    margin-top: 44px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.main_card h1{
+    margin:0;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "RobotoMedium",sans-serif;
+  
+}
+
+.main_card h5{
+    margin:0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5C5C5C;
+    font-family: "RobotoLight",sans-serif;
+    width: 270px;
+    margin-top: 30px;
+    
+}
+
+.main_card button{
+}
+
+.main_card img{
+}
+
+.main_card{
+    padding: 40px 35px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 550px;
+}
+
+.first_card{
+    margin-right: 33px;
+}
