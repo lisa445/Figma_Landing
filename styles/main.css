@@ -1,0 +1,134 @@
+.features, .content, .gallery, .partners {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title, .subtitle{
+    margin: 0;
+    font-family: "RobotoLight",sans-serif;
+    font-weight: 400;
+    text-align: center;
+    width: 40%
+}
+
+.title{ 
+    margin-top: 162px;
+    font-size: 52px;
+}
+
+.subtitle{
+    margin-top: 27px;
+    font-size: 20px;  
+}
+
+/*features*/
+
+.block_features{
+    margin-top: 80px;
+    display: flex;
+}
+
+.block_features ul{
+    padding: 0;
+    margin-top: -35px;
+}
+.block_features ul li{
+    list-style-type: none;
+    margin-top: 35px;
+}
+
+.feature_title{
+    display: flex;
+    align-items: center;
+    font-family:"RobotoMedium",sans-serif ;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.feature_title img{
+    margin-right: 15px;
+}
+.feature_desc{
+    display: inline-block;
+    margin-top: 10px;
+    width:270px;
+    font-family:"RobotoLight",sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Contents*/
+
+.main_cards{
+    margin-top: 44px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.main_card h1{
+    margin:0;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "RobotoMedium",sans-serif;
+  
+}
+
+.main_card h5{
+    margin:0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5C5C5C;
+    font-family: "RobotoLight",sans-serif;
+    width: 270px;
+    margin-top: 30px;
+    
+}
+
+.main_card{
+    padding: 40px 35px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 550px;
+}
+
+.first_card{
+    margin-right: 33px;
+}
+
+/*Gallery*/
+.images img{
+    border-radius: 12px;
+    margin-right: 33px;
+}
+.images_1, .images_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+.gallery button{
+    margin-top: 44px;
+}
+
+/*Partners*/
+.partners_icon{
+    margin-left: 74px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partners_icon img{
+    margin-right: 74px;
+}
